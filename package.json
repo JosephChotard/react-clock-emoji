@@ -8,14 +8,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "homepage": "https://github.com/JosephChotard/react-clock-emoji",
   "keywords": [
     "react",
     "clock",
     "emoji"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/joseph1"
-  },
   "author": "Joseph Chotard",
   "license": "ISC",
   "devDependencies": {

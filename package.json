@@ -13,6 +13,9 @@
     "clock",
     "emoji"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/joseph1"
+  },
   "author": "Joseph Chotard",
   "license": "ISC",
   "devDependencies": {

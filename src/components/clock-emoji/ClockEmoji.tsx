@@ -5,7 +5,7 @@ type Option<T> = T | undefined | null
 
 
 export interface ClockEmojiProps {
-    time: Option<AcceptableTimeTypes>,
+    time?: Option<AcceptableTimeTypes>,
     defaultTime: AcceptableTimeTypes,
 }
 
@@ -56,7 +56,7 @@ const ClockEmoji: FC<ClockEmojiProps> = ({ time, defaultTime }) => {
         console.error("Invalid time type")
     }
     const index = hourAndMinToIndex(hour, minute)
-    return (<span><>{hour}:{minute} - {CLOCKS[index]}</></span>)
+    return (<span>{CLOCKS[index]}</span>)
 }
 
 export default ClockEmoji

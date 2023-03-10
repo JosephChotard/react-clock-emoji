@@ -1,8 +1,7 @@
 {
   "name": "react-clock-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render the time with an emoji!",
-  "type": "module",
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",

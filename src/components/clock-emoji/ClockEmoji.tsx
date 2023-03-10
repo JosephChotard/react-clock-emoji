@@ -54,8 +54,6 @@ const ClockEmoji: FC<ClockEmojiProps> = ({ time, defaultTime }) => {
         [hour, minute] = parseDate(timeToUse)
     } else {
         console.error("Invalid time type")
-        hour = 0
-        minute = 0
     }
     const index = hourAndMinToIndex(hour, minute)
     return (<span><>{hour}:{minute} - {CLOCKS[index]}</></span>)

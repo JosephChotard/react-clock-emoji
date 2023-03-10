@@ -24,6 +24,7 @@ const hourAndMinToIndex = (hour: number, minute: number) => {
 }
 
 function parseNumber(num: number): [number, number] {
+    num = Math.abs(num)
     let hour = Math.floor(num / 60)
     let minute = num % 60
     return [hour, minute]

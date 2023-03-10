@@ -11,16 +11,15 @@ export default {
             control: {
                 type: "select",
                 options: [undefined, "12:00", "13:00", 23, new Date(2021, 0, 1, 14, 15), '2023-03-10T19:41:20.828Z'],
-                default: undefined,
+                default: "12:00",
             },
         },
         defaultTime: {
             control: {
-                type: "select",
-                options: [
-                    undefined, "12:00", "12:15", "12:30", "13:00", "13:30", "14:00",
-                ],
-                default: "12:00",
+                type: "range",
+                min: -(60 * 48),
+                max: (60 * 48),
+                step: 15
             },
         }
     },

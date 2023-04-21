@@ -30,7 +30,7 @@ const App = () => (
 If time is a number, it is assumed to be the number of minutes since midnight.
 If time is a string, it is assumed to start with "HH:mm".
 
-Time will always be modulates to ensure it is within the allowed range.
+Time will always be modulated to ensure it is within the allowed range.
 
 ## Screenshots
 
